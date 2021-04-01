@@ -55,6 +55,7 @@ html, body{
 .carousel-caption h1 {
 	font-family: Bookman Old Style;
 	font-size: 330%;
+	color: white;
 	font-height: 100%;
 	font-width: 100%;
 	text-shadow: 1px 1px 15px #000;
@@ -62,6 +63,7 @@ html, body{
 }
 .carousel-caption h2 {
 	font-size: 200%;
+	color: white;
 	font-width: 100%;
 	font-height: 100%;
 	text-shadow: 1px 1px 10px #000;
