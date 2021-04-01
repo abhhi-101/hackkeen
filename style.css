@@ -43,6 +43,8 @@ html, body{
 .carousel-caption {
 	position: absolute;
 	top: 65%;
+	height: 100%;
+	width: 100%;
 	transform: translateY(-50%);
 }
 .carousel-caption h1 {
