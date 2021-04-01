@@ -1,4 +1,16 @@
+/*------------------------------------------------------------------
+    Version: 1.0
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
 
 @import url(css/animate.css);
 @import url(css/camera.css);
@@ -6,6 +18,10 @@
 @import url(css/prettyPhoto.css);
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
 
 body {
     color: #999999;
@@ -24,34 +40,20 @@ html, body{
 	height: 100%;
 	
 }
-.carousel-inner div {
-	width: 100%;
-	height: 100%;
-	
-}
 .carousel-caption {
 	position: absolute;
-	top: 65%;
-	height: 100%;
-	width: 100%;
+	top: 70%;
 	transform: translateY(-50%);
 }
 .carousel-caption h1 {
 	font-family: Bookman Old Style;
 	font-size: 330%;
-	color: white;
-	text-align: center;
-	font-height: 100%;
-	font-width: 100%;
 	text-shadow: 1px 1px 15px #000;
 	
 }
 .carousel-caption h2 {
 	font-size: 200%;
-	text-align: center;
-	color: white;
-	font-width: 100%;
-	font-height: 100%;
+	font-width: 500%;
 	text-shadow: 1px 1px 10px #000;
 	
 }
