@@ -11,8 +11,10 @@
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
 </head>
-<body>
-
+<body id="page-top" class="politics_version">
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" >
 <div class="container-fluid">
@@ -22,23 +24,23 @@
 	</button>
 	<div class="collapse navbar-collapse" id=""navbarResponsive">
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Home</a>
+			<li class="nav-item active">
+				<a class="nav-link  js-scroll-trigger" href="/#home">Home</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Services</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#services">Services</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Security Score</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#securityscore">Security Score</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">About</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#about">About</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#connect">Connect</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Blog</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#blog">Blog</a>
 			</li>
 		</ul>				
 	</div>
@@ -49,10 +51,81 @@
 <!-- <nav class="navbar navbar-expand-m" >  -->
 
 <!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+</ul>
+<div class="carousel-inner active">
+	<div class="carousel-item active">
+		<img src="img/background.jpeg">
+		<div class="carousel-caption">
+			<h1 style="font-family: Bookman Old Style;font-size:330%;color:white">Welcome to <b>HackKeen</h1>
+			<h3>We Hack to Secure</h3>
+		</div>
+	</div>
+</div>
+</div>
 
 
-<!--- Jumbotron -->
-
+<!--- Services -->
+<div id="services" class="section lb">
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+			<div class="col-12">
+            <h3 class="display-4">Services</h3>
+            <h4 class="display-6">we provide ...</h4>
+			</div>
+			<hr class="my-4">
+        </div><!-- end title -->
+        <div class="row padding">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="services-inner-box">
+					<div class="ser-icon">
+						<img class="img-fluid" src="img/background3.jpg" alt="pre-breach services">
+					</div>
+				<h2>Pre-Breach</h2>
+				<p>A course that teaches you practically, about web application`s security, protecting you websites from attacks and reporting bugs for reward Money, Hall of fames and Swags <br/>&nbsp<br/>&nbsp</p>
+				</div>
+            </div><!-- end col -->
+            <div class="col-md-4">
+                <div class="services-inner-box">
+					<div class="ser-icon">
+						<img class="img-fluid" src="img/incident.jpg" alt="" />
+					</div>
+					<h2>Incident Response</h2>
+					<p>In web application penetration testing, we aim to teach you, identifying security issues resulting from insecure development practices in the design, coding and publishing of a software or a website.</p>
+				</div>
+            </div><!-- end col -->
+			<div class="col-md-4">
+                <div class="services-inner-box">
+					<div class="ser-icon active">
+						<img class="img-fluid" src="img/post-breach.jpg" alt="" />
+					</div>
+					<h2>Post-Breach</h2>
+					<p>Our comprehensive Penetration testing services mimic an attacker seeking to access sensitive assets by exploiting security weaknesses existing across multiple systems. <br/>&nbsp</p>
+				</div>
+            </div><!-- end col -->
+			<div class="col-md-4">
+                <div class="services-inner-box">
+					<div class="ser-icon">
+						<img class="img-fluid" src="img/training.png" alt="" />
+					</div>
+					<h2>Training</h2>
+					<p>CEH training certifies the abilities of an ethical hacker to guard against the weaknesses and vulnerabilities of network infrastructure and illegal hacking practices.</p>
+				</div>
+            </div><!-- end col -->
+			<div class="col-md-4">
+                <div class="services-inner-box">
+					<div class="ser-icon">
+						<img class="img-fluid" src="img/awearness.png" alt="" />
+					</div>
+					<h2>Awearness</h2>
+					<p>Our internship programs are aimed, to provide exposure, and prepare you for the industrial demands. <br/>&nbsp<br/>&nbsp<br/></p>
+				</div>
+            </div><!-- end col -->
+		</div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end section -->
 
 <!--- Welcome Section -->
 
@@ -80,8 +153,33 @@
 
 <!--- Connect -->
 
+<!-- footer -->
 
-<!--- Footer -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-6">
+          <h5>Our Office Location</h5>
+          <p>Office No.: 105 Chinar Heights 1032-A Model Colony Deep Bunglow Chowk, Shivajinagar, Pune-411016<br>
+            Contact: 7350390975 / 9527566750<br> Email us at: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7d1e1213091c1e093d0e181e080f18140e18531e1210">[email&#160;protected]</a>
+            </p>
+          
+        </div>
+      <div class="footer-col col-md-3">
+    </div>
+    <div class="footer-col col-md-3">
+        <h5>Share with Love</h5>
+		  <ul>
+            <a href="https://twitter.com/secureise"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/secureise"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/secureise/"><i class="fa fa-instagram"></i></a>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- footer top --> 
 
 
 
